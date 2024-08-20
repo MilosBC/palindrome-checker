@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0A0A23;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  /*  justify-content: center;
+    align-items: center; */
+}
+
+h1 {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.wrapper {
+    background-color: white;
+    width:500px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    padding: 15px 0;
+    
+}
+
+.wrapper-caption {
+    font-size: 1.5rem;
+}
+
+.wrapper-inputs {
+    display: flex;
+    column-gap: 15px;
+}
+
+#text-input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    border-bottom-width: 2px;
+    border-bottom-color: #5A01A7;
+    width: 290px;
+    font-size: 1.2rem;
+}
+
+#check-btn {
+    width: 80px;
+    padding: 5px;
+    position: relative;
+    top: 5px;
+    background-color: #5A01A7;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    
+}
+
+#check-btn,
+.wrapper {
+    border-radius: 20px;
+}
+
+#result {
+   font-size: 1.2rem;
+   color: green;
+}
+
+.footer {
+    width: 400px;
+    font-size: 1.8rem;
+    display: flex;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    position: relative;
+    top: 33%;
+}
+
+.fa-github {
+    transition: transform .5s ease-in-out;
+    font-size: 2.8rem; 
+    margin-left: 12px; 
+    margin-top: 19px;
+    color: white;
+    position: relative;
+    bottom: 28px;
+    left: 1px;
+    
+}
+
+.fa-github:hover {
+    transform: rotate(360deg);
+}
+
+
+
+
+
