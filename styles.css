@@ -72,7 +72,13 @@ h1 {
 
 #result {
    font-size: 1.2rem;
-   color: green;
+   
+   text-align: left;
+}
+
+.wrapper-result {
+    position: relative;
+    right: 20px;
 }
 
 .footer {
