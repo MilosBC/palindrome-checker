@@ -10,7 +10,7 @@ checkButton.addEventListener('click', ()=> {
   console.log(userInput.value);
 
 
-  const regex = /[\s+-.,_]/g;
+  const regex = /[\s+-.,_:\(\)\/\\\|]/g;
  
   const userInputFiltered = userInput.value.replace(regex, '');
   console.log(userInputFiltered);
