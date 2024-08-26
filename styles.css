@@ -70,6 +70,11 @@ h1 {
     border-radius: 20px;
 }
 
+#check-btn:hover {
+    position: relative;
+    top: 3px;
+}
+
 
 .user-word {
 font-weight: bold;
@@ -95,6 +100,8 @@ font-weight: bold;
     color: white;
     position: relative;
     top: 33%;
+    text-align: center;
+    padding-left: 21px;
 }
 
 .fa-github {
